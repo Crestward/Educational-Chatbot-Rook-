@@ -1,0 +1,3 @@
+chainlit
+tensorflow
+nltk

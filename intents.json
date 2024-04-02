@@ -1,0 +1,851 @@
+{
+    "intents" : [
+        {
+        "tag": "readiness",
+        "patterns": [
+            "Are you ready?",
+            "Are we all set?",
+            "Is everything prepared?",
+            "Ready to go?",
+            "Let's get started"
+        ],
+        "responses" : [
+            "I'm ready when you are!",
+            "All set and eager to begin",
+            "Everything's prepared and good to go",
+            "Ready for action!",
+            "Let's do this!"
+        ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi there",
+                "Hey",
+                "How are you doing",
+                "What's up",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi!",
+                "Greetings",
+                "Hi, how's it going?",
+                "Hi, how are you?",
+                "Hi, there!",
+                "Hello, how's your day?",
+                "Hello, how are things?",
+                "Hey, how's it hanging?",
+                "Hey, what's going on?",
+                "Hi, how's everything?",
+                "Hi, how's life treating you?",
+                "Hello, what's new?",
+                "Hi, what's happening?",
+                "Hey, what's up?",
+                "Hi, how's your day going?",
+                "Hello, how's your day been?",
+                "Hi, how's your day been so far?",
+                "Hello, how's everything with you?",
+                "Hi, how's life?",
+                "Hey, how's your day?",
+                "Hi, how's your day been?",
+                "Hello, how's it going today?",
+                "Hi, how's your week?",
+                "Hey, how's your week been?",
+                "Hello, how's your weekend?",
+                "Hi, how's your weekend going?",
+                "Hey, how's your weekend been?",
+                "Hello, how's your day looking?",
+                "Hi, how's your day shaping up?",
+                "Hey, how's your day progressing?",
+                "Hi, how are you today?",        
+                "Hello",
+                "Hi there",
+                "Hey",
+                "How are you doing",
+                "What's up"
+            ],
+            "responses" : [
+                "Hey Sir!",
+                "How may I be off help",
+                "I have awoken ",
+                "Hi there! How can I assist you?",
+                "Good day! How can I assist you?",
+                "Hello! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns" : [
+                "What is your name",
+                "What can I call you"
+            ],
+            "responses" : [
+                "My name is Rook",
+                "Your Graciousness, my humble identifier is Rook"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns" : [
+                "cya", 
+                "See you later",
+                "Goodbye", 
+                "I am Leaving", 
+                "Have a Good day", 
+                "bye", 
+                "cao", 
+                "see ya"
+        ],
+        "responses": [
+            "Sad to see you go", 
+            "Talk to you later", 
+            "Goodbye!"]
+        },
+        {
+            "tag": "textbook_help",
+            "patterns": [
+                "Can you help with this textbook question?",
+                "I'm having trouble understanding a question in my textbook",
+                "Could you explain a question from my textbook?",
+                "I need assistance with a question in my textbook",
+                "I'm stuck on a question in my textbook",
+                "Can you help with a textbook?",
+                "I need help with a textbook",
+                "Help with textbook",
+                "Textbook assistance",
+                "Guide me through a textbook problem"
+            ],
+            "responses": [
+                "Sure! I can help with that. Could you please provide the name of the textbook, chapter, and the question you need assistance with? Please ensure you are providing the official name of the textbook as it is written"
+            ]
+        },
+        {
+            "tag": "file",
+            "patterns" : [
+                "Create a file",
+                "Create a new file"
+            ],
+            "responses" : [
+                "File created",
+                "New file made"
+            ]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [ 
+                "I want to add a todo", 
+                "add a new todo", 
+                "add a todo to my list", 
+                "new item on my todo List"],
+            "responses": [""]
+        },
+        {
+            "tag": "show_todos",
+            "patterns": [
+                "Show my todos", 
+                "What are my todos", 
+                "What is on my todo list"],
+            "responses": [""]
+        },
+        { 
+            "tag": "exit",
+            "patterns": [
+                "Bye", 
+                "Stop", 
+                "Quit", 
+                "I want to quit", 
+                "Goodbye", 
+                "I want to exit", 
+                "I have to go"],
+            "responses": ["Bye Bye :)",
+        "Don't away for too long",
+        "Sad to see you go"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks a lot",
+                "Appreciate it",
+                "Thanks!"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Anytime!",
+                "Glad I could assist!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance",
+                "Help!",
+                "I'm stuck"
+            ],
+            "responses": [
+                "Of course, I'm here to help!",
+                "Sure, what do you need assistance with?",
+                "Don't worry, I'll do my best to assist you."
+            ]
+        },
+        {
+            "tag": "app",
+            "patterns": [
+                "How do I install MyCardiffMet?",
+                "How to install the app",
+                "Install cardiffmet app",
+                "how do i get the cardiffmet app",
+                "how can i get the mycardiffmet app",
+                "how can i get the cardiffmet app",
+                "get the cardiffmet app",
+                "how to download and use the cardiffment app",
+                "download cardiffmet app",
+                "download and use cardiffmet app",
+                "where can i download cardiffmet app",
+                "download and use Mycardiffmet app"
+            ],
+            "responses": [
+                "iPhone, iPad and iPod Touch: MyCardiffMet is available for free from the iTunes App Store.\n\nAndroid: MyCardiffMet is available for free from the Android Marketplace.\n\nAll other devices: Go to http://cardiffmet.ombiel.co.uk/ in your browser.\n\nWhen launching the app for the first time, please be connected to Wi-Fi as it downloads the campus maps and other information. You will be asked to share your current location – click OK.\nOnce you have read and accepted the Terms of Use, you will need to provide some personal details:\n\n- your first name\n- your last name\n- your Cardiff Met email address and password"
+            ]
+        },
+        {
+            "tag": "app information",
+            "patterns": [
+                "What information is available in the App?",
+                "what can the cardiffmet app do for me",
+                "functionalities of the cardiffmet app",
+                "what can the app do",
+                "what info can i get in the app"       
+                
+                
+            ],
+            "responses": [
+                "My Details\nView your personal information",
+                "Virtual Learning\nMoodle\nAccess to Moodle",
+                "Cardiff Met Email\nAccess your University email",
+                "Library services\nView your Account and Search for library resources",
+                "Campus locations and maps\nView a wide range of locations on campus maps, including: PC labs, Smoking Areas, Food and Shops, Lecture Theatres, Halls of Residence, Sport Facilities, Transport and more. (Please note that some of these categories only apply to services available at certain campuses)",
+                "Pocket Guide\nThe Pocket Guide is full of useful information about the University and each campus. This includes links to Facilities, the Students' Union, Student Services, Social Feeds and more.",
+                "PC Availability\nView how many PCs are available in the various labs around campus. Updated real time.",
+                "E-Payment\nUse the App to top-up your ID Card",
+                "Laundry\nView launderette availability at Cyncoed Campus and Plas Gwyn Campus",
+                "Bus Timetables\nView and search for bus times between Cardiff Met Campuses.",
+                "IT Service Status\nCheck the status of all major IT related services through our Service Status pages.",
+                "i-Zone Student Enquiries\ni-Zone will answer any questions",
+                "Live Chat\nIT & Library help via a web chat service",
+                "Personalised Timetable\naccess your timetable on the go",
+                "Student Union\naccess to Cardiff Met SU"
+            ]
+        },
+        {
+            "tag": "app support",
+            "patterns": [
+                "What help and support is available on the app?",
+                "Help on the app",
+                "support available in the app",
+                "helped needed with the app"
+            ],
+            "responses": [
+                "Although MyCardiffMet is available to all, we can only offer help and support to staff and students. If you require help, please contact us via the IT Help Desk on Ext.7000 or by emailing campusm@card​iffmet.ac.uk"
+            ]
+        },
+        {
+            "tag": "network password",
+            "patterns": [
+                "What happens if I change my network password?",
+                "change network password"
+            ],
+            "responses": [
+                "After changing your network password, the next time you try to access password protected areas within MyCardiffMet, the application will request that you log on again."
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "How to I connect my device to Cardiff Met’s WIFI network?",
+                "connect to wifi",
+                "wifi network"
+            ],
+            "responses": [
+                "Wireless connection guides for registered users can be found here:\nhttp://study.cardiffmet.ac.uk/Help/5mg/Pages/wifi.aspx"
+            ]
+        },
+        {
+            "tag": "new student enrollment",
+            "patterns": [
+                "I am a new student and cannot find a link to enrol onto my course",
+                "New student enrollment",
+                "cannot find link to enroll",
+                "new student link",
+                "enrollment procedures for new students",
+                "enrollment steps for new students"
+            ],
+            "responses": [
+                "You will receive an email with details on how to enrol online when you have met all of your conditions of offer and your application has been updated. \nIf you have received an email notification with your username and password, you can use the following link to enrol: \n'https://cis2.cardiffmet.ac.uk/SelfServiceEnrolmentSSO'"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Say something funny",
+                "I need a laugh"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call fake spaghetti? An impasta!"
+            ]
+        },
+        {
+            "tag": "induction",
+            "patterns": [
+                "As a new student, what do I need to bring with me for my Induction Week ?",
+                "Induction",
+                "bring to induction",
+                "Induction for new students",
+                "induction process for new students"
+            ],
+            "responses": [
+                "It would be useful if you had the following items with you during your induction week: \nPhoto proof of ID \nSponsor Letter* - if you are being sponsored by your employer \nCopies of your qualifications - if requested by Admissions\nBirth Certificate\nAny programme specific documents as specified in your Induction & Enrolment information\n*if you don't upload your sponsor letter as part of your online enrolment, please scan and email a copy to enrolment@cardiffmet.ac.uk or drop a copy to one of our i-Zones at Llandaff or Cyncoed"
+            ]
+            
+        },
+        {
+            "tag": "term time address",
+            "patterns": [
+                "I don't know my term time address to be able to complete my enrolment ?",
+                "term time"
+            ],
+            "responses": [
+                "Within the term time address section, if you do not know this address at the point of enrolment you can enter your parental/permanent address as your term time address. Once you know the address you will be staying at during your study period you can email Enrolment and w​e will up​date this for you. Alternatively, you can update your address through your student portal. You will however, be required to enter the type of accommodation you will be living in e.g. Cardiff Met Halls of Residence (Institution maintained property), private halls, rented accommodation etc., so select the appropriate 'type' from the drop-down list."
+            ]
+        },
+        {
+            "tag": "suspend studies",
+            "patterns": [
+                "I have completed my enrolment but I no longer want to attend, what should I do ?",
+                "suspend studies",
+                "stop studies"
+            ],
+            "responses": [
+                "If you wish to suspend or withdraw from your studies speak to your Programme Director as soon as possible. If, after discussing your options with your Programme Director, you still decide to suspend or withdraw (an internal transfer may be a more favourable option), then your Programme Director will complete the relevant form and submit this to the MIS Unit who will process the action and forward this onto the Enrolment Team who will inform Student Finance, where applicable. Please be aware that if you are receiving student finance then your maintenance and tuition fees are likely to be affected. It is very important that you inform us of your decision as Cardiff Met need to inform Student Finance of your change of circumstances.​"
+            ]
+        },
+        {
+            "tag": "incorrect module",
+            "patterns": [
+                "I've selected an incorrect module - how can I change it ?",
+                "incorrect module"
+            ],
+            "responses": [
+                "If you wish to change your module please contact your School or the Programme Director​."
+            ]
+        },
+        {
+            "tag": "student finance application",
+            "patterns": [
+                "I'm having problems with my student finance application, what should I do ?",
+                "student finance application"
+            ],
+            "responses": [
+                "Visit the Enrolment Help Link​, quoting your Customer Reference Number (CRN) assigned to you by Student Finance along with a description of the issue or visit the i-zone or Student Services. If your Student Finance status online is showing as Pending for a delayed period, please also let us know as we may be able to resolve this for you."
+            ]
+        },
+        {
+            "tag": "after enroll",
+            "patterns": [
+                "What happens after I've completed the online enrolment ?",
+                "after enrollment",
+                "completed enrollment"
+            ],
+            "responses": [
+                "Once you have successfully enrolled you will be taken to an After you have Enrolled page with more information on what to expect next and information you now have access to. You will also receive an email to confirm you have completed the process successfully."
+            ]
+        },
+        {
+            "tag": "international student enrollment",
+            "patterns": [
+                "I am an international student, how do I enrol ?",
+                "international student enrollment",
+                "international student enroll",
+                "enrollment procedures for international students",
+                "enrollment for international students"
+            ],
+            "responses": [
+                "As an international student, please contact our International Office​ who will advise you on the process and any further queries."
+            ]
+        },
+        {
+            "tag": "claim student finance",
+            "patterns": [
+                "Will I still be able to claim student finance if I need to repeat a year of study ?",
+                "claim student finance after a repeat year"
+            ],
+            "responses": [
+                "Eligibility for student finance for a repeat year of study is dependent on your previous study history.\nIn relation to tuition fee support, Student Finance provides funding for the duration of a course of study, and one additional year under certain circumstances. For example, if your course has a duration of 3 years, you may be entitled to 4 years of funding in total (3 + 1 = 4), if you need to repeat one year of your course, and you haven't previously repeated a year or studied on a Higher Education course prior to this one.\nWhen applying for student finance your entitlement for funding will consider if you have undertaken a previous course at HE level, and will be reduced to reflect this.\n Applicants and students should always check with Student Finance concerning your entitlement to funding.​​\nFor further advice and guidance you are strongly recommended to contact a Student Finance and Welfare Advisor via email: finance@cardiffmet.ac.uk or arrange an appointment via the appointment request form (under Quick Links on your student portal) to discuss your funding. Further information is also available via the webpage Student Welfare and Finance Advice"
+            ]
+        },
+        {
+            "tag": "financial difficulty",
+            "patterns": [
+                "I'm encountering financial difficulty - what can I do - please help ?",
+                "financial difficulty",
+                "no money"
+            ],
+            "responses": [
+                "Information is available via the webpage https://www.cardiffmet.ac.uk/financewelfare. For further advice and guidance you are strongly recommended to contact a Student Finance and Welfare Advisor via email: finance@cardiffmet.ac.uk or arrange an appointment via the appointment request form (under Quick Links on your student portal) to discuss your funding"
+            ]
+        },
+        {
+            "tag": "student finance",
+            "patterns": [
+                "When will I receive my student finance ?",
+                "student finance",
+                "receive student finance"
+            ],
+            "responses": [
+                "Undergraduate students need to apply for student finance for each year of your course and should apply for student finance asap once applications open. Once your student finance application has been approved you should receive a payment schedule for any tuition fees and/or maintenance you have applied for from Student Finance themselves. As long as you've applied prior to the deadline (see dates below) and your application has been fully approved, then your first maintenance payments should be paid to in the 1st week of term. Subsequent payments are usually based around the dates on your Student Finance Notification."
+            ]
+        },
+        {
+            "tag": "forgot login",
+            "patterns": [
+                "I am a continuing student and I don't know my login details",
+                "forgot log in",
+                "forgot login",
+                "forgot login details",
+                "forgotten logon details",
+                "forgotten student login details"
+            ],
+            "responses": [
+                "If you need reminding of your username, please contact the IT Helpdesk on 02920417000; or if you just need to reset your password please click on this link: https://cis.cardiffmet.ac.uk/pwdmanagementui/."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "who do i contact at the university",
+                "contact",
+                "contact details",
+                "university contact details",
+                "who can i call"
+            ],
+            "responses": [
+                "If you have any questions about coming to study at Cardiff Metropolitan University, please complete the form below and we will get in touch with you as soon as possible. Alternatively you can send us an email at askinternational@cardiffmet.ac.uk or call our office on +44 (0) 2920 416 045 (option 1).​"
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": [
+                "Thank you so much",
+                "I appreciate your help",
+                "You've been a great help",
+                "Thanks a million",
+                "I'm grateful for your assistance"],
+            "responses": [
+                "You're welcome!",
+                "It was my pleasure to assist you",
+                "Glad I could help",
+                "Anytime! Feel free to ask if you need more help",
+                "No problem at all"
+            ]
+        },
+        {
+            "tag": "student finance",
+            "patterns": [
+                "What do I do if Student Finance are awaiting confirmation of attendance?",
+                "How can I proceed if Student Finance are waiting for confirmation of attendance?",
+                "What steps should I take if Student Finance require confirmation of my attendance?"
+            ],
+            "responses": [
+                "This process is completed by our Academic Registry. Please email enrolment@cardiffmet.ac.uk for assistance."
+            ]
+        },
+        {
+            "tag": "receiving student finance",
+            "patterns": [
+                "What should I do if I am receiving Student Finance?",
+                "How do I proceed if I am receiving Student Finance?",
+                "What steps should I take if I receive Student Finance?"
+            ],
+            "responses": [
+                "We will receive confirmation of your funding directly from Student Finance. We would recommend you apply with enough time that the application has been accepted before the start of term."
+            ]
+        },
+        {
+            "tag": "late student finance",
+            "patterns": [
+                "What do I do if my Student Finance is late?",
+                "How can I handle it if my Student Finance is late?",
+                "What actions should I take if my Student Finance is delayed?"
+            ],
+            "responses": [
+                "Please inform our Exchequer department at tuitionfees@cardiffmet.ac.uk that your student finance is late and please keep us informed of any updates you receive from Student Finance. We would encourage you to contact Student Finance regularly. If funding is not provided by the start of Term 2, you may be required to begin paying your fees in the interim. Once we receive funding from student finance, a refund will be issued of any overpayments that may be on your account."
+            ]
+        },
+        {
+            "tag": "student finance withdraw from course",
+            "patterns": [
+                "Will I have to pay my Tuition Fees if I withdraw from my course?",
+                "Do I need to pay my Tuition Fees if I withdraw from my course?",
+                "Is there a need to settle Tuition Fees if I withdraw from my course?"
+            ],
+            "responses": [
+                "If you wish to withdraw from your course, your withdrawal date will determine how much of your tuition fee is payable. More information, including a breakdown of dates, can be found here: Withdrawal and Fees."
+            ]
+        },
+        {
+            "tag": "sponsorship",
+            "patterns": [
+                "What should I do if I am being sponsored?",
+                "How should I proceed if I have a sponsor?",
+                "What steps do I take if I am being sponsored?"
+            ],
+            "responses": [
+                "Please provide a sponsor letter on letterheaded paper to enrolment@cardiffmet.ac.uk. The sponsor letter will need to confirm the following information: Name of sponsor, Postal address, Email address, Level of funding, Student name and number, Purchase order number (if applicable). Once we have received this, we can update your student record and bill your sponsor directly. You will need to do this for each year of study."
+            ]
+        },
+        {
+            "tag": "nhs bursary",
+            "patterns": [
+                "What should I do if I am receiving the NHS bursary?",
+                "How do I proceed if I'm eligible for the NHS bursary?",
+                "What steps do I take if I receive the NHS bursary?"
+            ],
+            "responses": [
+                "Please send your NHS Student Awards letter to enrolment@cardiffmet.ac.uk once you receive it. From there then we can update your student record and bill the NHS bursary team directly."
+            ]
+        },
+        {
+            "tag": "payment options",
+            "patterns": [
+                "Can I pay by instalments if I am self-funding?",
+                "Is it possible to pay in instalments if I'm self-funding?",
+                "Are instalment options available for self-funding?",
+                "payment options available",
+                "payment options",
+                "payment options for tuition fees",
+                "what are the payment options available for tuition fees"
+            ],
+            "responses": [
+                "You can make payment in full or set up instalments (Recurring Card Payments) via the payment portal. There are instalment plans available for both Home and International students. Please see the attached instructional document for guidance on setting up an instalment plan. Please note when filling out the student number box please do not include the ‘st’ prefix attached to your student number."
+            ]
+        },
+        {
+            "tag": "payment options installments",
+            "patterns": [
+                "How do I set up an instalment plan?",
+                "What's the process for setting up an instalment plan?",
+                "Can you guide me on how to set up an instalment plan?"
+            ],
+            "responses": [
+                "Please see the attached instructional document for guidance on setting up an instalment plan. Please note when filling out the student number box please do not include the ‘st’ prefix attached to your student number."
+            ]
+        },
+        {
+            "tag": "home instalment plan",
+            "patterns": [
+                "What are the instalment options for home self-funding students?",
+                "Can you provide details about the instalment plan for home self-funding students?",
+                "How does the instalment plan for home self-funding students work?"
+            ],
+            "responses": [
+                "The instalment options for home self-funding students, and for returning international students continuing on a course (September Intake) are as follows:\n\n- 08/09/2023: 40% of Tuition Fees\n- 08/01/2024: 30% of Tuition Fees\n- 15/04/2024: 30% of Tuition Fees"
+            ]
+        },
+        {
+            "tag": "international instalment plan",
+            "patterns": [
+                "What are the instalment options for new self-funding international students?",
+                "Can you provide details about the instalment plan for international self-funding students?",
+                "How does the instalment plan for international self-funding students work?"
+            ],
+            "responses": [
+                "The instalment options for new self-funding international students and international students progressing to a new course (September Enrolment) are as follows:\n\n- On application: 50%\n- 08/01/2024: 10%\n- 08/02/2024: 10%\n- 08/03/2024: 10%\n- 08/04/2024: 10%\n- 08/05/2024: 10%"
+            ]
+        },
+        {
+            "tag": "international January instalment plan",
+            "patterns": [
+                "What are the instalment options for new self-funding international students enrolling in January?",
+                "Can you provide details about the instalment plan for international self-funding students enrolling in January?",
+                "How does the instalment plan for international self-funding students enrolling in January work?"
+            ],
+            "responses": [
+                "The instalment plan for new self-funding international students and international students progressing to a new course enrolling in January is as follows:\n\n- On application: 50%\n- 15/04/2024: 25%\n- 16/09/2024: 25%"
+            ]
+        },
+        {
+            "tag": "deposit payment",
+            "patterns": [
+                "What is the deposit fee requirement for overseas fee paying students?",
+                "How much is the deposit fee for overseas fee paying students?",
+                "Can you provide details about the deposit fee for overseas fee paying students?"
+            ],
+            "responses": [
+                "Overseas fee paying students must make a deposit fee payment as stipulated on our official offer letter to join your course. Excluding the International Foundation Course at ELTC who require full course payment, all undergraduate and postgraduate programmes require a 50% deposit of your total course fee, from September 2023 intake onwards."
+            ]
+        },
+        {
+            "tag": "tuition fees",
+            "patterns": [
+                "How much are my fees?",
+                "What are the tuition fees for my course?",
+                "Can you tell me the fees for my course?",
+                "tuition fees for different courses",
+                "all tuition fees",
+                "how much am i paying for my course"
+            ],
+            "responses": [
+                "All fees for 2023/24 can be found here: https://www.cardiffmet.ac.uk/study/finance/Documents/English%202023.2024%20A4%20Fee%20tables%2003.23.pdf"
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "Am I eligible for any scholarships or bursaries?",
+                "What scholarships or bursaries am I eligible for?",
+                "Can I get any scholarships or bursaries?"
+            ],
+            "responses": [
+                "Information on Scholarships that are available to Home students can be found here: Bursaries & Scholarships​. Information on Scholarships that are available to International ​students can be found here: Applying to Cardiff Met Scholarships. If you have any further questions or wish to confirm whether you are eligible, please contact scholarship@cardiffmet.ac.uk​."
+            ]
+        },
+        {
+            "tag": "alumni discount",
+            "patterns": [
+                "Can I get Alumni Discount?",
+                "Is Alumni Discount available?",
+                "What about Alumni Discount?"
+            ],
+            "responses": [
+                "All information regarding the Alumni Discount can be found here: Alumni Discount. If you have any further questions or wish to confirm whether you are eligible, please contact scholarship@cardiffmet.ac.uk​."
+            ]
+        },
+        {
+            "tag": "extra exam provision",
+            "patterns": [
+                "Who should I tell if I have student services approved extra exam provision and by what date?",
+                "Where do I inform if I have student services approved extra exam provision and before which date?",
+                "How do I notify about my student services approved extra exam provision and by when?"
+            ],
+            "responses": [
+                "Any students who have been approved extra examination provision by student services for a disability etc. should use the online form that is available by clicking on the link given on the exams homepage. You will receive a confirmation e-mail on submission of the online form, and your relevant Exams Officer will contact you. After the deadline, the form is removed from the web and extra examination provision will no longer be available."
+            ]
+        },
+        {
+            "tag": "exam provision deadline",
+            "patterns": [
+                "Why is there a deadline for the extra examination provision form?",
+                "What's the reason behind having a deadline for the extra examination provision form?",
+                "What's the purpose of setting a deadline for the extra examination provision form?"
+            ],
+            "responses": [
+                "The deadline for the special provisional needs form is in place to ensure that all students are treated fairly, and to enable examinations officers to give the best possible service to each student who requires additional provision."
+            ]
+        },
+        {
+            "tag": "missed exam deadline",
+            "patterns": [
+                "What should I do if I miss the deadline for submitting my disabilities form?",
+                "How can I proceed if I miss the deadline for submitting my disabilities form?",
+                "What steps should I take if I fail to submit my disabilities form before the deadline?"
+            ],
+            "responses": [
+                "If you have missed the deadline, you will only be permitted to receive additional time for your exams."
+            ]
+        },
+        {
+            "tag": "exam arrival time",
+            "patterns": [
+                "What time should I arrive for my Exams?",
+                "When do I need to arrive for my Exams?",
+                "At what time should I be present for my Exams?"
+            ],
+            "responses": [
+                "You should aim to arrive for each exam no less than 15 minutes before the start time shown on the timetable. This is to ensure you are seated by the correct exam and have sufficient time to fill in any paper work required before the exam starts."
+            ]
+        },
+        {
+            "tag": "exam belongings",
+            "patterns": [
+                "Where should I leave my coats/bags etc. during the exam?",
+                "What should I do with my coats/bags etc. during the exam?",
+                "How do I manage my coats/bags etc. during the exam?"
+            ],
+            "responses": [
+                "Students are encouraged to only bring essential items required for the Examination, such as a pencil case or medication. Students will be able to place their mobile phone or small wallets/purses in the zip lock bag provided. Coats maybe left on the back of your chair. Students must not at any time during the examination retrieve anything from the pockets of their coat."
+            ]
+        },
+        {
+            "tag": "alternative ID usage",
+            "patterns": [
+                "If I forget my Cardiff Met I.D badge, can I use some other form of I.D instead?",
+                "What if I forget my Cardiff Met I.D badge, can I use an alternative form of I.D?",
+                "Can I use another form of I.D if I forget my Cardiff Met I.D badge?",
+                "forgot id badge",
+                "forgot I.D badge",
+                "forgot id badge when coming for examination"
+
+            ],
+            "responses": [
+                "Cardiff Met I.D Cards are required for every examination and must be placed at the top corner of your desk at the start of each exam. If you have not brought along your Cardiff Met I.D card then other forms of acceptable identification include Passport or a Photo Drivers License. If you have no form of acceptable I.D with you on the day of the exam then a mark will be placed at the top corner of your attendance slip and the matter will be reported the relevant exam board."
+            ]
+        },
+        {
+            "tag": "personal stationery usage",
+            "patterns": [
+                "Can I use my own stationery for my exams?",
+                "Is it allowed to use personal stationery for exams?",
+                "Am I permitted to use my own stationery for exams?"
+            ],
+            "responses": [
+                "You will be provided with a sufficient number of answer books in order to complete all your examinations. It is your responsibility to ensure you have the correct pens/pencils/calculators etc that are required. Cardiff Met will not loan any of these items if you have forgotten them and once the exam has started you are not permitted to share stationery from another candidate."
+            ]
+        },
+        {
+            "tag": "different campus exams",
+            "patterns": [
+                "Why are some of my exams being held on a different campus to where I normally study?",
+                "What's the reason for holding some exams on a different campus?",
+                "Why would my exams be on a different campus than my usual?"
+            ],
+            "responses": [
+                "Sometimes candidate numbers for certain exams exceed the capacity of a campus’ exam rooms. In these circumstances it is necessary for a cohort to be moved to a campus with a larger single venue. This ensures that all students on that cohort receive the same conditions for that exam."
+            ]
+        },
+        {
+            "tag": "split exam timing",
+            "patterns": [
+                "My exam is split between multiple rooms, will I still start and finish the same time as the rest of my cohort, and which room should I go to?",
+                "How does it work if my exam is split between rooms? Will I start and finish at the same time as others?",
+                "If my exam is divided between rooms, will my timing be the same as others?"
+            ],
+            "responses": [
+                "As above, sometimes candidate numbers exceed the capacity of certain exam venues and it is therefore necessary to hold a single exam in two or more rooms. These rooms will be allocated and shown clearly on your timetable. All exams will start at the time stated on the timetable even if they are split between rooms. Unless otherwise instructed, students can go to any room shown on the timetable and if this room is full they will be directed to the next available room. It may be that you are instructed to go to more than one other room but co-operation with staff is important to ensure all exams start on time."
+            ]
+        },
+        {
+            "tag": "leaving exam room",
+            "patterns": [
+                "Will I be allowed to leave the exam room before the exam has finished?",
+                "Can I exit the exam room before the exam concludes?",
+                "Is it permissible to leave the exam room before the end of the exam?"
+            ],
+            "responses": [
+                "With the exception of toilet breaks and emergencies/mitigating circumstances, all candidates must remain in the exam room for the first 45 minutes of an exam. You will not be permitted to leave the exam venue during the last 15 minutes. Before you leave you must ensure that you have handed in all pieces of work."
+            ]
+        },
+        {
+            "tag": "missed exam procedure",
+            "patterns": [
+                "If I miss an exam due to illness or any other mitigating circumstances, what should I do?",
+                "What's the procedure if I miss an exam due to illness or other mitigating circumstances?",
+                "What steps should I take if I'm unable to attend an exam due to illness or other mitigating circumstances?"
+            ],
+            "responses": [
+                "In the first instance you should report the matter to your school. They will issue you with a Mitigating Circumstances form that will need to be filled out by you as soon as possible. You will need to show evidence of your mitigating circumstances. For instance, if you have missed an exam for medical reasons, a doctors note or similar must be obtained. This proof must be submitted to the school along with your Mitigating Circumstances Form."
+            ]
+        },
+        {
+            "tag": "university overview",
+            "patterns": [
+                "Tell me about Cardiffmet",
+                "What can you tell me about Cardiffmet?",
+                "Give me an overview of Cardiff Metropolitan University"
+            ],
+            "responses": [
+                "Cardiff Metropolitan University delivers professionally recognised degrees, together with impactful research and innovation, in art and design, business and management, education and public services, sport and health sciences, and technologies and engineering. As a driver of education and social transformation, we work with purpose to ensure that every student can realise their full potential to their own and future generations. We are a catalyst for innovation and the economy, and a key contributor to inclusive and sustainable growth both nationally and internationally. A collaborative and compassionate community, our values of creativity, diversity, freedom and innovation are lived through the behaviours of our staff and students; by our leadership, trust, courage and accountability to each other, and to our partners."
+            ]
+        },
+        {
+            "tag": "general enquiries",
+            "patterns": [
+                "How can I contact the school?",
+                "What are the contact details for the school?",
+                "How do I get in touch with the school?"
+            ],
+            "responses": [
+                "General enquiries telephone: +44 (0)29 2041 6070. We welcome calls in Welsh."
+            ]
+        },
+        {
+            "tag": "admissions enquiries",
+            "patterns": [
+                "How can I contact admissions?",
+                "What is the contact email for admissions?",
+                "How do I get in touch with the admissions team?"
+            ],
+            "responses": [
+                "Admissions: askadmissions@cardiffmet.ac.uk"
+            ]
+        },
+        {
+            "tag": "press enquiries",
+            "patterns": [
+                "How can I contact for press enquiries?",
+                "What is the email for press enquiries?",
+                "How do I reach out for press related queries?"
+            ],
+            "responses": [
+                "Press enquiries: press@cardiffmet.ac.uk (including expert requests and out of hours)"
+            ]
+        },
+        {
+            "tag": "academic schools contact",
+            "patterns": [
+                "How can I contact the academic schools?",
+                "What are the contact details for the academic schools?",
+                "How do I get in touch with the academic schools?"
+            ],
+            "responses": [
+                "For specific academic schools, you can contact:",
+                "Cardiff School of Art & Design: csad@cardiffmet.ac.uk",
+                "Cardiff School of Education and Social Policy: CSESPLTSE@Cardiffmet.ac.uk",
+                "Cardiff School of Management: csm@cardiffmet.ac.uk",
+                "Cardiff School of Sport & Health Sciences - Cyncoed Campus: CSSHSLTSE@cardiffmet.ac.uk",
+                "Cardiff School of Sport & Health Sciences - Llandaff Campus: CSSHSLTSE@cardiffmet.ac.uk"
+            ]
+        },
+        {
+            "tag": "departmental contacts",
+            "patterns": [
+                "How do I contact specific departments?",
+                "What are the contact details for different departments?",
+                "How can I get in touch with various departments?",
+                "contact details for different departments within the university"
+            ],
+            "responses": [
+                "For departmental contacts, you can refer to the following:",
+                "Accommodation Services: accomm@cardiffmet.ac.uk",
+                "Assessment and Awards: verificationofawards@cardiffmet.ac.uk",
+                "Marketing and External Relations: corporatedesignteam@cardiffmet.ac.uk, websupport@cardiffmet.ac.uk, wideningaccess@cardiffmet.ac.uk, corporateevents@cardiffmet.ac.uk",
+                "Alumni Relations Team: alumni@cardiffmet.ac.uk",
+                "Enrolment / Fees / Student Loans: enrolment@cardiffmet.ac.uk",
+                "International Students: international@cardiffmet.ac.uk",
+                "Research and Enterprise Services: researchadmin@cardiffmet.ac.uk, business@cardiffmet.ac.uk",
+                "Sports Facilities: sport@cardiffmet.ac.uk",
+                "Student Services: studentservices@cardiffmet.ac.uk",
+                "Students' Union: studentunion@cardiffmet.ac.uk"
+            ]
+        },
+        {
+            "tag": "campus contacts",
+            "patterns": [
+                "How can I contact the campuses?",
+                "What are the contact details for the campuses?",
+                "How do I reach out to the campuses?"
+            ],
+            "responses": [
+                "For campus contacts:",
+                "Llandaff Campus: +44 (0)29 2041 6138",
+                "Cyncoed Campus: +44 (0)29 2041 6155"
+            ]
+        }
+    ]
+    
+}
+
